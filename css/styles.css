@@ -156,6 +156,164 @@ body {
   color: var(--image-backround);
 }
 
+:root {
+  --modal-backround-kolor: #fcfcfc;
+  --header-backround: #ffffff;
+  --image-backround: #2e2f42;
+  --light-backround: #f4f4fd;
+  --acent-color: #e7e9fc;
+  --subtle-text: #8e8f99;
+  --text: #434455;
+  --pressed-state: #404bbf;
+  --pimary-brand: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--header-backround);
+  color: var(--text);
+}
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--pimary-brand);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-link:hover {
+  color: var(--pressed-state);
+}
+
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+
+  align-items: center;
+
+  color: var(--light-backround);
+}
+.logo-studio-link {
+  color: var(--image-backround);
+}
+
+.link-menu {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--image-backround);
+}
+
+.link-menu:hover {
+  color: var(--pressed-state);
+}
+.link-menu:focus {
+  color: var(--pressed-state);
+}
+
+.titlel-section {
+  background: var(--image-backround);
+}
+
+.main-page-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--header-backround);
+}
+
+.btn-order {
+  font-family: "Roboto", sans-serif;
+  background: var(--pimary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+  color: var(--header-backround);
+
+  cursor: pointer;
+}
+
+.btn-order:hover {
+  background-color: var(--pressed-state);
+}
+
+.btn-order:focus {
+  background-color: var(--pressed-state);
+}
+
+.link-information {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+
+  letter-spacing: 0.02em;
+}
+
+.link-information:hover {
+  color: var(--pressed-state);
+}
+
+.link-information:focus {
+  color: var(--pressed-state);
+}
+
+.information {
+  background: var(--header-backround);
+}
+
+.title-menu {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--image-backround);
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+.subtitle-main-page {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--image-backround);
+}
+
+.section-team {
+  background: var(--light-backround);
+}
+
+.desc-menu {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--image-backround);
+}
+
 .images-photo {
   background: var(--header-backround);
 }
@@ -191,7 +349,7 @@ body {
   color: var(--light-backround);
 }
 
-.button-item {
+.main-menu-one {
   font-family: "Roboto", sans-serif;
   background: var(--light-backround);
 
@@ -204,19 +362,19 @@ body {
   color: var(--pimary-brand);
   cursor: pointer;
 }
-.button-item:hover {
+.main-menu-one:hover {
   color: var(--header-backround);
 }
 
-.button-item:focus {
+.main-menu-one:focus {
   color: var(--header-backround);
 }
 
-.button-item:hover {
+.main-menu-one:hover {
   background-color: var(--pressed-state);
 }
 
-.button-item:focus {
+.main-menu-one:focus {
   background-color: var(--pressed-state);
 }
 
