@@ -1,0 +1,138 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* HEADER */
+
+.header {
+  color: white;
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+}
+.list {
+}
+.header-items {
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.header-address-link {
+}
+.link {
+}
+
+/* SECTION 1 */
+
+.effective {
+}
+.effective-title {
+}
+.effective-btn {
+}
+
+/* SECTION 2 */
+
+.description {
+}
+.visually-hidden {
+}
+.description-list {
+}
+.list {
+}
+.description-item {
+}
+.description-title {
+}
+.description-text {
+}
+
+/* SECTION 3 */
+
+.about {
+}
+.about-title {
+}
+.about-list {
+}
+.list {
+}
+.about-item {
+}
+
+/* SECTION 4 */
+
+.team {
+}
+.team-main-title {
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+}
+.team-worker {
+}
+.team-text {
+}
+
+/* ----------PAGE 2------------- */
+
+/* SECTION BUTTON */
+
+.button {
+}
+.button-list {
+}
+.list {
+}
+.button-item {
+}
+
+/* SECTION PICTURES */
+
+.picture {
+}
+.picture-list {
+}
+.list {
+}
+.picture-item {
+}
+
+/* FOOTER */
+
+.footer {
+}
+.footer-logo {
+}
+.footer-text {
+}
